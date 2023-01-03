@@ -8,7 +8,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<script>
 			function newTab(e){
-				window.open(`https://fitnesspluss.onrender.com/`)
+				console.log(e)
+				window.open(e)
 			}
 		</script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -52,7 +53,7 @@
 								</header>
 								<a href="#" class="image main"><img src="images/fitnessplus.png" alt="" /></a>
 								<ul class="actions special">
-									<li><button onclick='newTab()'  class="button">Check it out</button></li>
+									<li><button onclick="newTab('https://fitnesspluss.onrender.com/')"  class="button">Check it out</button></li>
 								</ul>
 							</article>
 
@@ -62,10 +63,10 @@
 									<header>
 										<h2><a href="#">Project 2</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<a href="#" class="image fit"><img src="images/expense-tracker.png" alt="" /></a>
 									
 									<ul class="actions special">
-										<li><button  class="button">Check it out</button></li>
+										<li><button onclick="newTab('https://expense-tracker-atyb.onrender.com/')"  class="button">Check it out</button></li>
 									</ul>
 								</article>
 								<article>
